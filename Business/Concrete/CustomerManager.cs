@@ -27,7 +27,7 @@ namespace Business.Concrete
             return new SuccessResult();
         }
 
-        public IDataResult<List<Customer>> GetlAll()
+        public IDataResult<List<Customer>> GetAll()
         {
             return new SuccessDataResult<List<Customer>>(_customerDal.GetAll());
         }
